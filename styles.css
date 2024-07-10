@@ -1,0 +1,85 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px 10px ;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    border : 10px solid  white;
+    border-radius:40px;
+    align-items: center;
+    font-weight:lighter;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+img {
+width: 100px;
+height: 100px;
+top: 114px;
+left: 83px;
+border-radius:50%;
+margin:40px 50px 0px ;
+}
+.intro{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9hyzaLSYGWw_xss5QQly4Vl5UdHF0dErw5A&s");
+    background-size: cover;
+    color:#ffffff;
+    width: 720px;
+    height: 343px;
+}
+.activities{
+    background-color: #F1FAEE;
+    width: 720px;
+   height: 378px; 
+   margin :0 40px;
+   color:#1D3557;
+}
+#clumn{
+     display:flex;
+     text-align: center;
+}
+#b1{
+    background-color:#457B9D; 
+    margin:  50px 250px 20px;
+    padding :10px;
+    border-radius: 10px;
+    
+}
+#b2{
+    background-color:#1D3557;
+    margin:20px 50px;
+     padding :5px;
+    border-radius: 10px;
+}
+.card{
+color:#1D3557;
+background-color:#A8DADC;
+margin:50px;
+width: 400px;
+height: 180px;
+border-bottom:10px solid #1D3557;
+border-radius: 10px;
+display : flex ;
+padding: 0px 20px 20px 5px;
+}
+h3{
+    font-weight: bold;
+    margin-top: 40px;
+    color :#1D3557;
+}
+#pic{
+    Width:100px;
+Height:130px;
+border-radius:20px;
+margin-left:20px;
+margin-top: 30px;
+}
